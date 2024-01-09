@@ -5,7 +5,7 @@
 
 **<ins>1st Method.</ins>**
 1. **Download the ZIP file:**
-    - [L4D2-Troll-Banlist Repo](https://github.com/OccultismCat/L4D2-Configs/archive/refs/heads/main.zip)
+    - [L4D2-Configs Repo](https://github.com/OccultismCat/L4D2-Configs/archive/refs/heads/main.zip)
 
 2. **Move the ZIP file:**
     - Navigate to your Left 4 Dead 2 installation directory. Typically, it is located at:

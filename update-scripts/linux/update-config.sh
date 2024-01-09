@@ -1,10 +1,15 @@
 #!/bin/bash
 clear
 
-source "update-paths.conf"
+source "./update-paths.conf"
 
-cp -f "$REPO_CUSTOM_PATH/"* "$GAME_CUSTOM_PATH"
+copy_files(){
+    local start_path="$1"
+    local end_path="$2"
+    copy=$(cp -f "$start_path" "$end_path" 2>&1)
+    echo -e "Ran Copy Files: '$start_path' to '$end_path'\n"
+}
 
-cp -f "$REPO_AUTOEXEC_PATH" "$GAME_AUTOEXEC_PATH"
+copy_files "$REPO_CUSTOM_PATH/*" "$GAME_CUSTOM_PATH"
 
-echo -e "Copied Files From '$REPO_CUSTOM_PATH' to '$GAME_CUSTOM_PATH'\n\nCopied File '$REPO_AUTOEXEC_PATH' to '$GAME_AUTOEXEC_PATH'\n"
+copy_files "$REPO_AUTOEXEC_PATH" "$GAME_AUTOEXEC_PATH"

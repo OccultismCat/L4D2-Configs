@@ -1,1 +1,3 @@
 update-scripts/linux/update-paths.conf
+update-scripts/linux/dev-update-config.sh
+update-scripts/linux/log.log

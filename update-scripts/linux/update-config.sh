@@ -3,6 +3,6 @@ clear
 
 source "update-paths.conf"
 
-sudo cp -f "$START_PATH"* "$END_PATH"
+sudo cp -f "$REPO_CUSTOM_PATH"* "$GAME_CUSTOM_PATH"
 
-echo -e "\nCopied Files From '$START_PATH' to '$END_PATH'\n"
+echo -e "\nCopied Files From '$REPO_CUSTOM_PATH' to '$GAME_CUSTOM_PATH'\n"

@@ -1,3 +1,6 @@
 update-scripts/linux/update-paths.conf
 update-scripts/linux/dev-update-config.sh
 update-scripts/linux/log.log
+scripts/linux/dev-update-config.sh
+scripts/linux/dev-update-paths.conf
+scripts/linux/log.log
